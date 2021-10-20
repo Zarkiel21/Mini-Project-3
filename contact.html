@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-image: url(images/background.jpg);">
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="about.html" >About</a>
+            <a href="gallery.html" >Gallery</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+        
+        <div class="container">
+        <div class="wrapper3">
+            <form class="form" method="get" action="myMiniProject_1/emoji.html">
+                <h1 class="contact-title">Contact me</h1>
+                <br><br>
+                <label>First name :</label>
+                <input type="text" name="firstname" placeholder="ex. Juan" style="margin-left: 0.5em" required/>
+                <label style="margin-left: 0.5em;">Last name :</label>
+                <input type="text" name="lastname" placeholder="ex. Dela Cruz" style="margin-left: 0.5em;" required/>
+                <br><br>
+                <label style="margin-left: 0.8em;">Location :</label>
+                <input type="text" name="location" placeholder="ex. Quezon City" style="margin-left: 0.5em;" required/>
+                <label style="margin-left: 1.9em;">Email :</label>
+                <input type="email" name="email" placeholder="ex. juandelacruz@gmail.com"   style="margin-left: 0.5em;" required/>
+                <br><br>
+                <label>Message me</label>
+                <br>
+                <textarea placeholder="Type Here" style="width: 500px; height: 100px; margin-top: 0.7em;"></textarea>
+                <br><br>
+                <button id="submit" type="submit">Submit</button>
+                <button type="reset" onclick="Reset()">Reset</button>
+
+
+            </form>
+
+        </div>
+    </div>
+        <script src="main.js"></script>
+    </body>
+</html>
